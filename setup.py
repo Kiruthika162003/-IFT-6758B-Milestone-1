@@ -14,7 +14,7 @@ setup(
     license='MIT',
     packages=find_packages(),
     include_package_data=True,
-    python_requires='>=3.6',
+    python_requires='>=3.8',
     install_requires=[
         "numpy>=1.21.0",
         "pandas>=1.3.0",
@@ -31,7 +31,11 @@ setup(
         "setuptools>=52.0.0",
         "scipy>=1.7.0",
         "rich>=10.0.0",
-        "Pillow>=8.0.0"
+        "Pillow>=8.0.0",
+        "nbformat",
+        "jsonschema",
+        "python-dotenv",
+        "hockey-rink"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -43,7 +47,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "nhl-data-tool=your_package.module:main_function",
+            "nhl-data-tool=ift6758.main:main_function",
         ],
     },
 )
