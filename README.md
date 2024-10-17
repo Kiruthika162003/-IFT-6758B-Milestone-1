@@ -1,4 +1,16 @@
-# IFT6758 Repo Template
+# IFT 6758 Project: Milestone 1
+
+## Team Members
+
+| Name                    | Email                             |
+|-------------------------|-----------------------------------|
+| Kiruthika Subramani     | kiruthika.subramani@umontreal.ca |
+| Tikshan                 | tikshan.kumar.soobanah@umontreal.ca |
+| Yizhan Li              | yizhan.li@umontreal.ca           |
+
+
+About the milestone
+
 
 This template provides you with a skeleton of a Python package that can be installed into your local machine.
 This allows you access your code from anywhere on your system if you've activated the environment the package was installed to.
